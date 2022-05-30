@@ -1,7 +1,7 @@
 import React, { forwardRef, Children, Fragment } from 'react'
 import { cx, getPrefixCls } from '@hi-ui/classname'
 import { __DEV__ } from '@hi-ui/env'
-import { HiBaseHTMLProps, HiBaseSizeEnum } from '@hi-ui/core'
+import { HiBaseHTMLProps } from '@hi-ui/core'
 import { isNullish } from '@hi-ui/type-assertion'
 
 import { handleTransformGap } from './utils'
@@ -21,7 +21,7 @@ export const Space = forwardRef<HTMLDivElement | null, SpaceProps>(
       inline = true,
       align = 'center',
       direction = 'row',
-      size = HiBaseSizeEnum.SM,
+      size = 'sm',
       wrap = false,
       style,
       className,

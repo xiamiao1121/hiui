@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react'
 import { useLatestCallback, useLatestRef } from '@hi-ui/use-latest'
-import { ValueOf } from '@hi-ui/core'
 import { isFunction } from '@hi-ui/type-assertion'
 
 export const useDrop = ({
@@ -317,5 +316,6 @@ export const UseDropNodeDirection = {
   AFTER: 'after',
 } as const
 
+type ValueOf<T> = T[keyof T]
 // eslint-disable-next-line no-redeclare
 export type UseDropNodeDirection = ValueOf<typeof UseDropNodeDirection> | null

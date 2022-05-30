@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { __DEV__ } from '@hi-ui/env'
-import { LocaleProvider, LocaleProviderProps } from '@hi-ui/locale-context'
+import { LocaleProvider, LocaleProviderProps } from '@hi-ui/core'
 import { DesignSystemAccentColorEnum, DesignSystemProps } from './types'
 import { createSystem, extendsTheme } from './theme'
 import { getAccentColorTheme } from './accent-color'

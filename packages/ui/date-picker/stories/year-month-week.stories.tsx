@@ -1,6 +1,6 @@
 import React from 'react'
 import DatePicker from '../src'
-import LocaleProvider from '@hi-ui/locale-context'
+import LocaleProvider from '@hi-ui/provider'
 
 /**
  * @title 年份 / 月份 / 周

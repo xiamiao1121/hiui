@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { cx, getPrefixCls } from '@hi-ui/classname'
 import { __DEV__, invariant } from '@hi-ui/env'
-import { HiBaseHTMLProps, HiBaseSizeEnum } from '@hi-ui/core'
+import { HiBaseHTMLProps } from '@hi-ui/core'
 import { CheckCircleFilled, CloseCircleFilled, ExclamationCircleFilled } from '@hi-ui/icons'
 import { isNullish, isUndefined } from '@hi-ui/type-assertion'
 import { ResultImageSizeEnum, ResultTypeEnum } from './types'
@@ -9,15 +9,15 @@ import { ResultImageSizeEnum, ResultTypeEnum } from './types'
 const RESULT_PREFIX = getPrefixCls('result')
 
 const ImageSizeMap = {
-  [HiBaseSizeEnum.SM]: { width: '64px', height: '64px' },
-  [HiBaseSizeEnum.MD]: { width: '88px', height: '88px' },
-  [HiBaseSizeEnum.LG]: { width: '114px', height: '114px' },
+  sm: { width: '64px', height: '64px' },
+  md: { width: '88px', height: '88px' },
+  lg: { width: '114px', height: '114px' },
 }
 
 const ImageContainerSizeMap = {
-  [HiBaseSizeEnum.SM]: { width: '100px', height: '100px' },
-  [HiBaseSizeEnum.MD]: { width: '140px', height: '140px' },
-  [HiBaseSizeEnum.LG]: { width: '180px', height: '180px' },
+  sm: { width: '100px', height: '100px' },
+  md: { width: '140px', height: '140px' },
+  lg: { width: '180px', height: '180px' },
 }
 
 /**

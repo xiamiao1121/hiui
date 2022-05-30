@@ -47,16 +47,17 @@ to: <%= h.uiDir(`${name}/package.json`) %>
   },
   "dependencies": {
     "@hi-ui/classname": "^4.0.0-beta.0",
-    "@hi-ui/core": "^4.0.0-beta.0",
     "@hi-ui/core-css": "^4.0.0-beta.0",
     "@hi-ui/env": "^4.0.0-beta.0"
   },
   "peerDependencies": {
+    "@hi-ui/core": ">=4.0.0",
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   },
   "devDependencies": {
     "@hi-ui/hi-build": "^4.0.0-beta.1",
+    "@hi-ui/core": "^4.0.0-beta.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

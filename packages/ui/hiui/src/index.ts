@@ -36,11 +36,11 @@ export * from '@hi-ui/provider'
 export { default as Provider } from '@hi-ui/provider'
 
 /**
- * @deprecated
+ * @deprecated please use the `Provider`
  */
 export * from '@hi-ui/locale-context'
 /**
- * @deprecated
+ * @deprecated please use the `Provider`
  */
 export { default as LocaleContext } from '@hi-ui/locale-context'
 export * from '@hi-ui/switch'
