@@ -1,5 +1,11 @@
 # @hi-ui/env
 
+## 4.0.3
+
+### Patch Changes
+
+- chore: 增加 inject-head-style 依赖
+
 ## 4.0.2
 
 ### Patch Changes
