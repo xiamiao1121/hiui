@@ -129,7 +129,26 @@ export const Validate = () => {
           >
             <Input placeholder="请输入" />
           </FormItem>
-          <FormItem label="数量" field="count" valueType="string">
+          <FormItem
+            label="数量"
+            field="count"
+            valueType="string"
+            // rules={[
+            //   {
+            //     validator: (rule, value, callback) => {
+            //       const telReg = /^[1][3|4|5|6|7|8|9][0-9]{9}$/
+
+            //       if (!value) {
+            //         callback(new Error('请输入手机号'))
+            //       } else if (!telReg.test(value)) {
+            //         callback(new Error('请输入正确的手机号'))
+            //       } else {
+            //         callback()
+            //       }
+            //     },
+            //   },
+            // ]}
+          >
             <Input placeholder="请输入" />
           </FormItem>
           <FormItem label="门店" field="store" valueType="string">
